@@ -82,7 +82,7 @@ android {
 
     namespace "com.templaternmobileapp"
     defaultConfig {
-        applicationId "${project.env.get("RN_APP_ID")}"
+        applicationId "com.templaternmobileapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
