@@ -16,7 +16,6 @@ import {
   useColorScheme,
   View,
 } from 'react-native';
-
 import {
   Colors,
   DebugInstructions,
@@ -24,6 +23,7 @@ import {
   LearnMoreLinks,
   ReloadInstructions,
 } from 'react-native/Libraries/NewAppScreen';
+import pkgJson from '../package.json';
 
 type SectionProps = PropsWithChildren<{
   title: string;
@@ -88,6 +88,9 @@ function App(): React.JSX.Element {
           </Section>
           <Section title="Learn More">
             Read the docs to discover what to do next:
+          </Section>
+          <Section title="Version">
+            <Text>{pkgJson.version}</Text> <Text>({pkgJson.versionCode})</Text>
           </Section>
           <LearnMoreLinks />
         </View>

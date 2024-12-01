@@ -1,10 +1,14 @@
 # iOS Android React Native Mobile App
 
-[Packages Available Here](docs/packages.md)
+[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/ThryvLabs/CommandCenterMobile/releases)
+
+[![Build Number](https://img.shields.io/badge/build-1-brightgreen.svg)](https://github.com/ThryvLabs/CommandCenterMobile/actions/workflows/build.yml)
+
+[Products Available Here](docs/products.md)
 
 # Getting Started
 
-## Step 1: Setup
+## Step 2: Setup
 
 ```zsh
 nvm use
