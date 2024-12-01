@@ -15,7 +15,8 @@
     "typecheck": "npx tsc",
     "precommit": "yarn pretty && yarn lint && yarn typecheck && yarn test",
     "prepare": "husky",
-    "postinstall": "npm install -g @commitlint/config-conventional @commitlint/cli"
+    "postinstall": "npm install -g @commitlint/config-conventional @commitlint/cli",
+    "release": "npx release-it"
   },
   "dependencies": {
     "react": "18.3.1",
@@ -46,10 +47,12 @@
     "jest": "^29.6.3",
     "prettier": "2.8.8",
     "react-test-renderer": "18.3.1",
+    "release-it": "17.10.0",
     "ts-jest": "29.2.5",
     "typescript": "5.0.4"
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "packageManager": "yarn@3.6.4"
 }

@@ -1,0 +1,19 @@
+{
+  "github": {
+    "release": true,
+    "web": true,
+    "autoGenerate": true,
+    "releaseName": "v${version}"
+  },
+  "git": {
+    "commit": true,
+    "commitMessage": "chore: release v${version}"
+  },
+  "npm": {
+    "publish": false,
+    "allowSameVersion": true
+  },
+  "hooks": {
+    "before:bump": "sh ./.scripts/increase-build-number.sh ${version} ${latestVersion}"
+  }
+}
