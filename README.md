@@ -1,8 +1,8 @@
 # iOS Android React Native Mobile App
 
-[![Version](https://img.shields.io/badge/version-0.0.1-blue.svg)](https://github.com/ThryvLabs/CommandCenterMobile/releases)
+[![Version](https://img.shields.io/badge/version-0.0.2-blue.svg)](https://github.com/ThryvLabs/CommandCenterMobile/releases)
 
-[![Build Number](https://img.shields.io/badge/build-1-brightgreen.svg)](https://github.com/ThryvLabs/CommandCenterMobile/actions/workflows/build.yml)
+[![Build Number](https://img.shields.io/badge/build-2-brightgreen.svg)](https://github.com/ThryvLabs/CommandCenterMobile/actions/workflows/build.yml)
 
 [Products Available Here](docs/products.md)
 

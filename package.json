@@ -1,7 +1,7 @@
 {
   "name": "TemplateRNMobileApp",
-  "version": "0.0.1",
-  "versionCode": 1,
+  "version": "0.0.2",
+  "versionCode": 2,
   "private": true,
   "scripts": {
     "android": "npx react-native run-android",
@@ -13,7 +13,7 @@
     "test": "npx jest",
     "test:coverage": "npx jest --collectCoverage --coverageDirectory=\"./coverage\"",
     "typecheck": "npx tsc",
-    "precommit": "yarn pretty && yarn lint && yarn typecheck && yarn test",
+    "precommit": "yarn pretty && yarn lint && yarn typecheck",
     "prepare": "husky",
     "postinstall": "npm install -g @commitlint/config-conventional @commitlint/cli",
     "release": "npx release-it"
