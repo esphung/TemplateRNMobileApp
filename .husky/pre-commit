@@ -1,0 +1,8 @@
+#!/usr/bin/env sh
+. "$(dirname -- "$0")/_/husky.sh"
+
+# do checks before commit
+yarn precommit
+
+# add all changes to commit
+git add .

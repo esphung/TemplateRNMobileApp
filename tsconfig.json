@@ -1,3 +1,32 @@
 {
-  "extends": "@react-native/typescript-config/tsconfig.json"
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "lib": [],
+    "allowImportingTsExtensions": false,
+    "noEmit": false,
+    "strict": true,
+    "target": "esnext",
+    "outDir": "dist/",
+    "baseUrl": "src/",
+    "rootDir": "./",
+    "types": [
+        "node",
+        "jest"
+    ],
+    "noImplicitAny": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "jsx": "react-native",
+    "resolveJsonModule": true,
+    "allowJs": true
+  },
+  "exclude": [
+    "node_modules/",
+    "babel.config.js",
+    "metro.config.js",
+    "jest.config.js",
+    "node_modules",
+    "dist/"
+  ],
 }
