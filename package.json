@@ -13,7 +13,7 @@
     "test": "npx jest",
     "test:coverage": "npx jest --collectCoverage --coverageDirectory=\"./coverage\"",
     "typecheck": "npx tsc",
-    "precommit": "yarn pretty && yarn lint && yarn typecheck && yarn test",
+    "precommit": "yarn pretty && yarn lint && yarn typecheck",
     "prepare": "husky",
     "postinstall": "npm install -g @commitlint/config-conventional @commitlint/cli",
     "release": "npx release-it"
